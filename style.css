@@ -1,0 +1,38 @@
+body {
+    background-color: lightsteelblue;
+}
+.container {
+    widows: 80%;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#board {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
+.grid-row {
+    display: flex;
+    justify-content: center;
+}
+.grid-item {
+    height: 70px;
+    width: 70px;
+    background-color: lightpink;
+    border: 4px;
+    margin: 2px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.turn {
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
